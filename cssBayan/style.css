@@ -8,8 +8,8 @@ body {
     font-family: sans-serif;
     background-color: antiquewhite;
 }
-summary::-webkit-details-marker {
-   display: none;
+details > summary {
+   list-style: none;
 }
 
 .wrapper {
@@ -21,12 +21,20 @@ summary::-webkit-details-marker {
 }
 
 .accordion {
-    max-width: 800px;
+    max-width: 100%;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.2);
 }
 
 .accordion__title {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
+}
+ p {
+     text-align: center;
+ }
+.image {
+    width: 30%;
+    padding: 10px;
+
 }
