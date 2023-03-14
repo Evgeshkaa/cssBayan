@@ -98,6 +98,15 @@ body {
     }
 }
 
+.accordion__item:active > .accordion__title > span,
+.accordion__item:active > .accordion__title > span.accordion__icon {
+    color: mediumblue;
+}
+
+.accordion__item:active > .accordion__content > img {
+    opacity: 0.5;
+}
+
 @media (hover: hover) {
     .accordion:hover .accordion__title {
         color: black;
